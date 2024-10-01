@@ -22,7 +22,7 @@ public class UserService {
 
     public User getUserById( String id) {
         try {
-           return userRepository.findById(id).get();
+            return userRepository.findById(id).get();
 
         } catch (NoSuchElementException exception) {
             System.out.println("Could not find the requessted user");

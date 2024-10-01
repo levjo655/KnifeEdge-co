@@ -41,7 +41,8 @@ public class KnifeService {
 
     public String deleteKnife (String id) {
         knifeRepository.deleteById(id);
-        return "knife deleted";
+        return "Knife was deleted";
+
     }
 
 
