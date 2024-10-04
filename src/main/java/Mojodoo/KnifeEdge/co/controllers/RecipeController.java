@@ -41,8 +41,8 @@ public class RecipeController {
         return recipeService.updateRecipe(recipe);
     }
 
-    @DeleteMapping("/{id}")  // Use @DeleteMapping instead of RequestMethod.DELETE
+    @RequestMapping("/{id}")
     public String deleteRecipe(@PathVariable String id) {
-        return recipeService.deleteRecipe(id);  // Fixed service method call
+        return recipeService.deleteRecipe(id);
     }
 }

@@ -1,7 +1,7 @@
 package Mojodoo.KnifeEdge.co.services;
 
 import Mojodoo.KnifeEdge.co.models.Knife;
-import Mojodoo.KnifeEdge.co.models.User;
+ import Mojodoo.KnifeEdge.co.models.User;
 import Mojodoo.KnifeEdge.co.repository.KnifeRepository;
 import Mojodoo.KnifeEdge.co.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
